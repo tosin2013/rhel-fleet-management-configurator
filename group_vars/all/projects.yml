@@ -1,8 +1,19 @@
 ---
 controller_projects_all:
-  - name: config_as_code
+  - name: rhel_edge_fleet_management
     description: config as code project
-    organization: config_as_code
+    organization: rhel_edge_fleet_management
+    scm_type: git
+    scm_url: https://github.com/redhat-cop/aap_configuration_template.git
+    scm_branch: "{{ scm_branch }}"
+    scm_clean: true
+    scm_update_on_launch: false
+    scm_credential: ""
+    update_project: true
+    wait: true
+  - name: rhel_edge_fleet_management
+    description: config as code project
+    organization: rhel_edge_fleet_management
     scm_type: git
     scm_url: https://github.com/redhat-cop/aap_configuration_template.git
     scm_branch: "{{ scm_branch }}"

@@ -1,11 +1,11 @@
 ---
 controller_inventory_sources_all:
-  - name: config_as_code_source
-    organization: config_as_code
+  - name: rhel_edge_fleet_management_source
+    organization: rhel_edge_fleet_management
     source: scm
-    source_project: config_as_code
+    source_project: rhel_edge_fleet_management
     source_path: "inventory_{{ env }}.yml"
-    inventory: config_as_code
+    inventory: rhel_edge_fleet_management
     credential: ""
     overwrite: true
     overwrite_vars: true

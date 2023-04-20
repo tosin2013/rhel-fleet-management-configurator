@@ -1,5 +1,5 @@
 ---
 controller_labels_all:
   - name: EE
-    organization: config_as_code
+    organization: rhel_edge_fleet_management
 ...

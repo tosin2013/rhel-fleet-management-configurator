@@ -1,10 +1,10 @@
 ---
 controller_roles_all:
-  - team: config_as_code_admin
-    organization: config_as_code
+  - team: rhel_edge_fleet_management_admin
+    organization: rhel_edge_fleet_management
     role: execute
 
   - user: api_user
-    team: config_as_code_admin
+    team: rhel_edge_fleet_management_admin
     role: member
 ...

@@ -1,6 +1,6 @@
 ---
 ee_list:
-  - name: config_as_code_ee
+  - name: rhel_edge_fleet_management_ee
     bindep:
       - unzip
     python:

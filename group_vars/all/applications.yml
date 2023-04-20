@@ -1,8 +1,8 @@
 ---
 controller_applications_all:
-  - name: config_as_code_api
+  - name: rhel_edge_fleet_management_api
     description: launch controller config job template
-    organization: config_as_code
+    organization: rhel_edge_fleet_management
     client_type: confidential
     authorization_grant_type: password
 ...
