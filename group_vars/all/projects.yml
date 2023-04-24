@@ -1,21 +1,21 @@
 ---
 controller_projects_all:
-  - name: rhel_edge_fleet_management
-    description: config as code project
+  - name: rhel-fleet-management
+    description: Use Ansible to manage RHEL instances using Fleet Manager or Image Builder.
     organization: rhel_edge_fleet_management
     scm_type: git
-    scm_url: https://github.com/redhat-cop/aap_configuration_template.git
+    scm_url: https://github.com/Red-Hat-SE-RTO/rhel-fleet-management.git
     scm_branch: "{{ scm_branch }}"
     scm_clean: true
     scm_update_on_launch: false
     scm_credential: ""
     update_project: true
     wait: true
-  - name: rhel_edge_fleet_management
-    description: config as code project
+  - name: rhel-edge-management-role
+    description: The following role builds images for fleet manager.
     organization: rhel_edge_fleet_management
     scm_type: git
-    scm_url: https://github.com/redhat-cop/aap_configuration_template.git
+    scm_url: https://github.com/Red-Hat-SE-RTO/rhel-edge-management-role.git
     scm_branch: "{{ scm_branch }}"
     scm_clean: true
     scm_update_on_launch: false
